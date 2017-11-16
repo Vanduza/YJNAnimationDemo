@@ -21,6 +21,7 @@
 		DC8F5A8A1FBAD693000A463A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F5A821FBAD693000A463A /* 1.png */; };
 		DC8F5A8B1FBAD693000A463A /* YJNMatrixMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F5A831FBAD693000A463A /* YJNMatrixMenu.swift */; };
 		DC8F5A8E1FBADB81000A463A /* MatrixMenuDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F5A8D1FBADB81000A463A /* MatrixMenuDemoController.swift */; };
+		DCE543D61FBC0E30007156CD /* YJNDripLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE543D51FBC0E30007156CD /* YJNDripLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		DC8F5A821FBAD693000A463A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		DC8F5A831FBAD693000A463A /* YJNMatrixMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJNMatrixMenu.swift; sourceTree = "<group>"; };
 		DC8F5A8D1FBADB81000A463A /* MatrixMenuDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixMenuDemoController.swift; sourceTree = "<group>"; };
+		DCE543D51FBC0E30007156CD /* YJNDripLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJNDripLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		DC8F5A671FBAD5B0000A463A /* YJNAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DCE543D41FBC0E30007156CD /* YJNDripPageControl */,
 				DC8F5A8C1FBADB67000A463A /* Controllers */,
 				DC8F5A7A1FBAD693000A463A /* YJNMatrixMenu */,
 				DC8F5A681FBAD5B0000A463A /* AppDelegate.swift */,
@@ -113,6 +116,14 @@
 				DC8F5A8D1FBADB81000A463A /* MatrixMenuDemoController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DCE543D41FBC0E30007156CD /* YJNDripPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				DCE543D51FBC0E30007156CD /* YJNDripLayer.swift */,
+			);
+			path = YJNDripPageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 			files = (
 				DC8F5A8E1FBADB81000A463A /* MatrixMenuDemoController.swift in Sources */,
 				DC8F5A841FBAD693000A463A /* YJNMatrixMenuComponent.swift in Sources */,
+				DCE543D61FBC0E30007156CD /* YJNDripLayer.swift in Sources */,
 				DC8F5A8B1FBAD693000A463A /* YJNMatrixMenu.swift in Sources */,
 				DC8F5A6B1FBAD5B0000A463A /* ViewController.swift in Sources */,
 				DC8F5A691FBAD5B0000A463A /* AppDelegate.swift in Sources */,
