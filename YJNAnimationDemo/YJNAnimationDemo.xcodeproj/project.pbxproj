@@ -21,6 +21,7 @@
 		DC8F5A8A1FBAD693000A463A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8F5A821FBAD693000A463A /* 1.png */; };
 		DC8F5A8B1FBAD693000A463A /* YJNMatrixMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F5A831FBAD693000A463A /* YJNMatrixMenu.swift */; };
 		DC8F5A8E1FBADB81000A463A /* MatrixMenuDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F5A8D1FBADB81000A463A /* MatrixMenuDemoController.swift */; };
+		DCC49AD01FD6739C0044B6DE /* DripControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC49ACF1FD6739C0044B6DE /* DripControlViewController.swift */; };
 		DCE543D61FBC0E30007156CD /* YJNDripLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE543D51FBC0E30007156CD /* YJNDripLayer.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		DC8F5A821FBAD693000A463A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		DC8F5A831FBAD693000A463A /* YJNMatrixMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJNMatrixMenu.swift; sourceTree = "<group>"; };
 		DC8F5A8D1FBADB81000A463A /* MatrixMenuDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixMenuDemoController.swift; sourceTree = "<group>"; };
+		DCC49ACF1FD6739C0044B6DE /* DripControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DripControlViewController.swift; sourceTree = "<group>"; };
 		DCE543D51FBC0E30007156CD /* YJNDripLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJNDripLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				DC8F5A8D1FBADB81000A463A /* MatrixMenuDemoController.swift */,
+				DCC49ACF1FD6739C0044B6DE /* DripControlViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				DC8F5A8B1FBAD693000A463A /* YJNMatrixMenu.swift in Sources */,
 				DC8F5A6B1FBAD5B0000A463A /* ViewController.swift in Sources */,
 				DC8F5A691FBAD5B0000A463A /* AppDelegate.swift in Sources */,
+				DCC49AD01FD6739C0044B6DE /* DripControlViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

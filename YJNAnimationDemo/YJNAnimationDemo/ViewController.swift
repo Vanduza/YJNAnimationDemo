@@ -24,7 +24,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         self.view.addSubview(tableView)
         
-        demoTitles = ["MatrixMenu"]
+        demoTitles = ["MatrixMenu","DripPageControl"]
     }
     
     override func didReceiveMemoryWarning() {
@@ -47,6 +47,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         if indexPath.row == 0 {
             let matrixVC = MatrixMenuDemoController.init(nibName: nil, bundle: nil)
             self.navigationController?.pushViewController(matrixVC, animated: true)
+        }else if indexPath.row == 1 {
+            let dripVC = DripControlViewController.init(nibName: nil, bundle: nil)
+            self.navigationController?.pushViewController(dripVC, animated: true)
         }
     }
 }
